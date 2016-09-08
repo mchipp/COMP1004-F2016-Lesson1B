@@ -21,5 +21,15 @@ namespace COMP1004_F2016_Lesson1B
         {
 
         }
+
+        private void ClickMeButton_Click(object sender, EventArgs e)
+        {
+            MessageLabel.Text = "Hello World!";
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Application.Exit();
+        }
     }
 }
