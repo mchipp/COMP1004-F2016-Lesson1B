@@ -30,7 +30,6 @@
         {
             this.MessageLabel = new System.Windows.Forms.Label();
             this.ClickMeButton = new System.Windows.Forms.Button();
-            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // MessageLabel
@@ -47,7 +46,7 @@
             // ClickMeButton
             // 
             this.ClickMeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClickMeButton.Location = new System.Drawing.Point(12, 180);
+            this.ClickMeButton.Location = new System.Drawing.Point(82, 173);
             this.ClickMeButton.Name = "ClickMeButton";
             this.ClickMeButton.Size = new System.Drawing.Size(112, 32);
             this.ClickMeButton.TabIndex = 1;
@@ -55,23 +54,11 @@
             this.ClickMeButton.UseVisualStyleBackColor = true;
             this.ClickMeButton.Click += new System.EventHandler(this.ClickMeButton_Click);
             // 
-            // ExitButton
-            // 
-            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExitButton.Location = new System.Drawing.Point(160, 180);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(112, 32);
-            this.ExitButton.TabIndex = 2;
-            this.ExitButton.Text = "Exit";
-            this.ExitButton.UseVisualStyleBackColor = true;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
-            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.ClickMeButton);
             this.Controls.Add(this.MessageLabel);
             this.Name = "StartForm";
@@ -85,6 +72,5 @@
 
         private System.Windows.Forms.Label MessageLabel;
         private System.Windows.Forms.Button ClickMeButton;
-        private System.Windows.Forms.Button ExitButton;
     }
 }
