@@ -29,7 +29,12 @@ namespace COMP1004_F2016_Lesson1B
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            this.Application.Exit();
+            Application.Exit();
+        }
+
+        private void ExitButton_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
